@@ -1,0 +1,7 @@
+*
+!/.config
+!/.config/au-lab
+!/.config/au-lab/bluetooth.trak
+!/.config/au-lab/system.trak
+!/.gitignore.d
+!/.gitignore.d/dotfiles-au-lab
