@@ -20,14 +20,12 @@
 			</data>
 			<key>isCollapsed</key>
 			<false/>
+			<key>isHidden</key>
+			<false/>
 		</dict>
 	</array>
 	<key>Output Bus Info</key>
 	<dict>
-		<key>Aggregate Input UID</key>
-		<string>SoundflowerEngine:0</string>
-		<key>Aggregate Output UID</key>
-		<string>AppleHDAEngineOutput:1B,0,1,2:0</string>
 		<key>Bus Name</key>
 		<string>Master Out</string>
 		<key>Color</key>
@@ -44,7 +42,7 @@
 			<integer>1</integer>
 		</array>
 		<key>device ID</key>
-		<integer>215</integer>
+		<integer>40</integer>
 		<key>isCollapsed</key>
 		<false/>
 	</dict>
@@ -57,13 +55,15 @@
 		<key>audio device used</key>
 		<dict>
 			<key>audio device uid</key>
-			<string>AUL_Aggregate:0</string>
+			<string>SoundflowerEngine:0</string>
+			<key>device model uid</key>
+			<string>com_cycling74_driver_SoundflowerDevice:Soundflower</string>
 			<key>in channels</key>
 			<integer>2</integer>
 			<key>io num frames</key>
 			<integer>512</integer>
 			<key>name</key>
-			<string>Soundflower (2ch)/Ausgang (integriert)</string>
+			<string>Soundflower (2ch)</string>
 			<key>out channels</key>
 			<integer>2</integer>
 			<key>out channels map</key>
@@ -310,7 +310,7 @@
 			<integer>1</integer>
 		</dict>
 		<key>Window Frame</key>
-		<string>{{-1680, 23}, {1680, 1027}}</string>
+		<string>{{199, 204}, {1433, 833}}</string>
 		<key>Window Max</key>
 		<string>{2560, 1622}</string>
 		<key>Window Min</key>
