@@ -26,6 +26,10 @@
 	</array>
 	<key>Output Bus Info</key>
 	<dict>
+		<key>Aggregate Input UID</key>
+		<string>SoundflowerEngine:0</string>
+		<key>Aggregate Output UID</key>
+		<string>AppleHDAEngineOutput:1F,3,0,1,1:0</string>
 		<key>Bus Name</key>
 		<string>Master Out</string>
 		<key>Color</key>
@@ -42,7 +46,7 @@
 			<integer>1</integer>
 		</array>
 		<key>device ID</key>
-		<integer>40</integer>
+		<integer>202</integer>
 		<key>isCollapsed</key>
 		<false/>
 	</dict>
@@ -55,15 +59,13 @@
 		<key>audio device used</key>
 		<dict>
 			<key>audio device uid</key>
-			<string>SoundflowerEngine:0</string>
-			<key>device model uid</key>
-			<string>com_cycling74_driver_SoundflowerDevice:Soundflower</string>
+			<string>AUL_Aggregate:0</string>
 			<key>in channels</key>
 			<integer>2</integer>
 			<key>io num frames</key>
 			<integer>512</integer>
 			<key>name</key>
-			<string>Soundflower (2ch)</string>
+			<string>Soundflower (2ch)/Ausgang (integriert)</string>
 			<key>out channels</key>
 			<integer>2</integer>
 			<key>out channels map</key>
@@ -138,15 +140,15 @@
 								<data>
 								AAAAAAAAAAAA
 								AAAgAAAAAECI
-								fSgAAAABQG9s
-								EAAAAAJAORxw
-								AAAAAz/cWwAA
+								o9cAAAABQG9c
+								KQAAAAJAOPXD
+								AAAAAz/cKPYA
 								AAAEPvCj1wAA
 								AAUAAAAAAAAA
-								Bj8sccAAAAAH
-								PzpPoAAAAAhA
-								H7BYAAAACUBx
-								HHAAAAAKAAAA
+								Bj8rhR8AAAAH
+								PzrhSAAAAAhA
+								IAAAAAAACUBx
+								R64AAAAKAAAA
 								AAAAAAsAAAAA
 								AAAADAAAAAAA
 								AAANAAAAAAAA
@@ -250,7 +252,7 @@
 			</array>
 			<key>volume</key>
 			<array>
-				<real>1.0000557899475098</real>
+				<real>1</real>
 			</array>
 		</dict>
 		<key>track mixer</key>
@@ -293,7 +295,7 @@
 						<string>Audio 0 0</string>
 					</dict>
 					<key>volume</key>
-					<real>1.0031572580337524</real>
+					<real>1</real>
 				</dict>
 			</array>
 		</dict>
@@ -310,7 +312,7 @@
 			<integer>1</integer>
 		</dict>
 		<key>Window Frame</key>
-		<string>{{199, 204}, {1433, 833}}</string>
+		<string>{{357, 347}, {355, 573}}</string>
 		<key>Window Max</key>
 		<string>{2560, 1622}</string>
 		<key>Window Min</key>
