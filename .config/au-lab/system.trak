@@ -27,7 +27,7 @@
 	<key>Output Bus Info</key>
 	<dict>
 		<key>Aggregate Input UID</key>
-		<string>SoundflowerEngine:0</string>
+		<string>com.rogueamoeba.Loopback:6C626C6A-EF09-43E6-A863-56ED9F1A1900</string>
 		<key>Aggregate Output UID</key>
 		<string>AppleHDAEngineOutput:1F,3,0,1,1:0</string>
 		<key>Bus Name</key>
@@ -46,7 +46,7 @@
 			<integer>1</integer>
 		</array>
 		<key>device ID</key>
-		<integer>202</integer>
+		<integer>69</integer>
 		<key>isCollapsed</key>
 		<false/>
 	</dict>
@@ -65,7 +65,7 @@
 			<key>io num frames</key>
 			<integer>512</integer>
 			<key>name</key>
-			<string>Soundflower (2ch)/Ausgang (integriert)</string>
+			<string>Loopback/Ausgang (integriert)</string>
 			<key>out channels</key>
 			<integer>2</integer>
 			<key>out channels map</key>
@@ -312,7 +312,7 @@
 			<integer>1</integer>
 		</dict>
 		<key>Window Frame</key>
-		<string>{{357, 347}, {355, 573}}</string>
+		<string>{{0, 23}, {355, 573}}</string>
 		<key>Window Max</key>
 		<string>{2560, 1622}</string>
 		<key>Window Min</key>

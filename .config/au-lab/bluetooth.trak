@@ -20,14 +20,16 @@
 			</data>
 			<key>isCollapsed</key>
 			<false/>
+			<key>isHidden</key>
+			<false/>
 		</dict>
 	</array>
 	<key>Output Bus Info</key>
 	<dict>
 		<key>Aggregate Input UID</key>
-		<string>SoundflowerEngine:0</string>
+		<string>com.rogueamoeba.Loopback:6C626C6A-EF09-43E6-A863-56ED9F1A1900</string>
 		<key>Aggregate Output UID</key>
-		<string>00-09-dd-06-50-6a:output</string>
+		<string>2c-41-a1-02-a1-dc:output</string>
 		<key>Bus Name</key>
 		<string>Master Out</string>
 		<key>Color</key>
@@ -44,7 +46,7 @@
 			<integer>1</integer>
 		</array>
 		<key>device ID</key>
-		<integer>246</integer>
+		<integer>95</integer>
 		<key>isCollapsed</key>
 		<false/>
 	</dict>
@@ -57,13 +59,13 @@
 		<key>audio device used</key>
 		<dict>
 			<key>audio device uid</key>
-			<string>AUL_Aggregate:1</string>
+			<string>AUL_Aggregate:0</string>
 			<key>in channels</key>
 			<integer>2</integer>
 			<key>io num frames</key>
 			<integer>512</integer>
 			<key>name</key>
-			<string>Soundflower (2ch)/Optoma NuForce BE6</string>
+			<string>Loopback/Bose QC35 II</string>
 			<key>out channels</key>
 			<integer>2</integer>
 			<key>out channels map</key>
@@ -250,7 +252,7 @@
 			</array>
 			<key>volume</key>
 			<array>
-				<real>1.9999998807907104</real>
+				<real>1</real>
 			</array>
 		</dict>
 		<key>track mixer</key>
@@ -293,7 +295,7 @@
 						<string>Audio 0 0</string>
 					</dict>
 					<key>volume</key>
-					<real>1.9999998807907104</real>
+					<real>1</real>
 				</dict>
 			</array>
 		</dict>
@@ -310,7 +312,7 @@
 			<integer>1</integer>
 		</dict>
 		<key>Window Frame</key>
-		<string>{{-1680, 23}, {1680, 1027}}</string>
+		<string>{{0, 23}, {355, 573}}</string>
 		<key>Window Max</key>
 		<string>{2560, 1622}</string>
 		<key>Window Min</key>
